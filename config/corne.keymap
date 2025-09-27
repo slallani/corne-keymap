@@ -8,6 +8,15 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        deleteword: deleteword {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE &kp LC(BACKSPACE)>;
+            label = "DELETEWORD";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
