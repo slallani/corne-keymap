@@ -9,6 +9,13 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        hm: hm {
+            compatible = "zmk,behavior-hold-mod";
+            #binding-cells = <2>;  // modifier + key
+            label = "HM";
+        };
+    };    
     keymap {
         compatible = "zmk,keymap";
 
