@@ -9,15 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        bksp_cmd: bksp_cmd {
-            compatible = "zmk,behavior-tap-dance";
-            label = "BKSP_CMD";
-            #binding-cells = <0>;
-            bindings = <&mt LEFT_COMMAND BACKSPACE>, <&kp LA(BACKSPACE)>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -33,7 +24,7 @@
 &kp C_VOLUME_UP    &kp Q  &kp W  &kp E           &kp R      &kp T              &kp Y                 &kp U                   &kp I               &kp O    &kp P     &kp AT_SIGN
 &kp C_VOLUME_DOWN  &kp A  &kp S  &kp D           &kp F      &kp G              &kp H                 &kp J                   &kp K               &kp L    &kp SEMI  &kp SQT
 &kp K_PLAY_PAUSE   &kp Z  &kp X  &kp C           &kp V      &kp B              &kp N                 &kp M                   &kp COMMA           &kp DOT  &kp FSLH  &kp EXCLAMATION
-                                 &lt 1 C_CAPS    &lt 2 TAB  &mt LGUI BSPC      &mt LSHIFT SPACE      &mt LCTRL ENTER         &mt LALT ENTER
+                                 &lt 1 CAPS    &lt 2 TAB  &mt LGUI BSPC      &mt LSHIFT SPACE      &mt LCTRL ENTER         &mt LALT ESC
             >;
         };
 
