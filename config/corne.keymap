@@ -31,10 +31,10 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-&kp K_FORWARD  &none   &none           &kp UP_ARROW  &kp PAGE_UP    &none     &kp DOLLAR             &kp N7            &kp N8             &kp N9        &kp N0     &kp PERCENT
-&kp K_MUTE     &none   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &none     &kp LEFT_PARENTHESIS   &kp NUMBER_4      &kp NUMBER_5       &kp NUMBER_6  &kp PLUS   &kp ASTERISK
-&kp K_BACK     &trans  &trans          &kp K_UNDO    &kp PAGE_DOWN  &none     &kp RIGHT_PARENTHESIS  &kp N1            &kp NUMBER_2       &kp NUMBER_3  &kp MINUS  &kp SLASH
-                                       &trans        &trans         &trans    &kp HASH               &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp K_FORWARD  &none   &none           &kp UP_ARROW  &kp PAGE_UP    &kp DLLR       &kp UNDER              &kp N7            &kp N8             &kp N9        &kp N0     &kp EQUAL
+&kp K_MUTE     &none   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp PERCENT    &kp LEFT_PARENTHESIS   &kp NUMBER_4      &kp NUMBER_5       &kp NUMBER_6  &kp PLUS   &kp ASTERISK
+&kp K_BACK     &trans  &trans          &kp K_UNDO    &kp PAGE_DOWN  &none          &kp RIGHT_PARENTHESIS  &kp N1            &kp NUMBER_2       &kp NUMBER_3  &kp MINUS  &kp SLASH
+                                       &trans        &trans         &trans         &kp HASH               &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
