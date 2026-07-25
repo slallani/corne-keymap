@@ -21,10 +21,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp C_VOLUME_UP    &mt LG(Q) Q  &mt LG(W) W  &kp E        &kp R        &mt LG(T) T                   &kp Y                            &mt LG(U) U                 &mt LG(I) I              &mt LG(O) O  &mt LG(P) P  &kp MINUS
-&kp C_VOLUME_DOWN  &mt LG(A) A  &mt LG(S) S  &kp D        &mt LG(F) F  &kp G                         &kp H                            &kp J                       &kp K                    &mt LG(L) L  &kp SEMI     &kp SQT
-&kp C_PLAY_PAUSE   &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C  &mt LG(V) V  &mt LG(B) B                   &mt LG(N) N                      &kp M                       &kp COMMA                &kp DOT      &kp FSLH     &kp EXCLAMATION
-                                             &lt 2 CAPS   &lt 1 TAB    &mt LG(LEFT_GUI) BACKSPACE    &longpress LS(LEFT_SHIFT) SPACE  &mt LC(LEFT_CONTROL) ENTER  &mt LA(LEFT_ALT) ESCAPE
+&kp C_VOLUME_UP    &mt LG(Q) Q  &mt LG(W) W  &kp E        &kp R         &mt LG(T) T                   &kp Y                            &mt LG(U) U                 &mt LG(I) I           &mt LG(O) O  &mt LG(P) P  &kp MINUS
+&kp C_VOLUME_DOWN  &mt LG(A) A  &mt LG(S) S  &kp D        &mt LG(F) F   &kp G                         &kp H                            &kp J                       &kp K                 &mt LG(L) L  &kp SEMI     &kp SQT
+&kp C_PLAY_PAUSE   &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C  &mt LG(V) V   &mt LG(B) B                   &mt LG(N) N                      &kp M                       &kp COMMA             &kp DOT      &kp FSLH     &kp EXCLAMATION
+                                             &lt 2 CAPS   &lt 1 ESCAPE  &mt LG(LEFT_GUI) BACKSPACE    &longpress LS(LEFT_SHIFT) SPACE  &mt LC(LEFT_CONTROL) ENTER  &mt LA(LEFT_ALT) TAB
             >;
         };
 
